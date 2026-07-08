@@ -68,7 +68,7 @@ El archivo del logo (`WhatsApp Image ...12.50.57 PM.jpeg`) tiene **fondo blanco*
 El desarrollo parte de una **plantilla HTML existente**. El flujo de trabajo es:
 
 1. Quitar el fondo al logo (remove.bg) antes de integrarlo.
-2. Abrir el proyecto con Claude y usar el prompt inicial de la sección 4 para adaptar la plantilla al negocio.
+2. Abrir el proyecto con Claude y usar el prompt inicial
 3. **Iterar**: el resultado del primer prompt casi nunca es el final. Después de la primera pasada, seguir dando instrucciones puntuales a Claude (ajustar espaciados, contrastes, animaciones, jerarquía de textos, responsive, etc.) hasta lograr un acabado realmente premium. No conformarse con la primera respuesta.
 
 ### Estilo obligatorio
@@ -82,47 +82,6 @@ El desarrollo parte de una **plantilla HTML existente**. El flujo de trabajo es:
 
 ---
 
-## 4. Prompt inicial sugerido para Claude
 
-```
-Voy a convertir esta plantilla HTML en la landing page de un despacho de abogados llamado
-"Consultoría Jurídica", integrado por dos abogados:
-
-1. Mtro. Mario Eduardo Estrada Aguilar — Abogado Penalista, más de 15 años de experiencia.
-   Especialidad: Derecho Penal y Juicios Orales.
-   WhatsApp: 229 522 7860 | Correo: lic.mario.eduardo@gmail.com
-   Dirección: Calle Vasco Núñez de Balboa entre George Washington y José Martí #238,
-   Fracc. Reforma, Veracruz.
-
-2. Lic. Dulce Olivia Acevedo Ramírez — Abogada, cédula profesional 15603925.
-   Especialidades: Derecho Civil, Derecho Familiar, Derecho Laboral, Derecho Mercantil,
-   Amparos y Juicios.
-   Teléfono: 229 338 3693 | Correo: oli58895@gmail.com
-   Dirección: Calle Balboa #238 entre George Washington y José Martí, Col. Reforma, Veracruz.
-
-Servicios a destacar: Derecho Penal y Juicios Orales, Derecho Civil, Derecho Familiar,
-Derecho Laboral, Derecho Mercantil, Amparos y Juicios.
-
-Requisitos de diseño (muy importantes):
-- Estilo PREMIUM, ENTERPRISE, elegante y de alta confianza — como un despacho corporativo
-  de alto nivel, no una plantilla genérica.
-- Paleta de color: azul marino (navy) y dorado, igual que el logo adjunto.
-- Tipografía serif elegante para títulos, sans-serif limpia para texto de cuerpo.
-- Agregar una PANTALLA DE CARGA (loading screen) animada al inicio de la página, antes de
-  mostrar el contenido principal.
-- Botón flotante de WhatsApp.
-- Diseño responsive, mobile-first.
-- Secciones: Hero, Sobre el despacho / los abogados, Servicios, ¿Por qué elegirnos?
-  (confidencialidad, atención 24/7, experiencia), Testimonios (placeholder), Contacto
-  (teléfonos, correos, dirección, mapa) y Footer con redes sociales
-  (Facebook, WhatsApp, Instagram, TikTok).
-
-Usa como referencia visual el PDF de diseño que te paso (estructura tipo "sello" con logo,
-íconos circulares de servicios y franja dorada). No lo copies literal, es solo referencia de
-tono y jerarquía visual.
-
-Empieza por adaptar el header, el hero y la sección de servicios. Iremos ajustando el resto
-sección por sección.
-```
 
 **Después de este prompt inicial, seguir iterando con Claude** sección por sección (hero, servicios, contacto, footer, loading screen, animaciones) hasta que el resultado se vea realmente premium y corporativo, y no como un primer borrador.
