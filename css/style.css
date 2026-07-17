@@ -595,8 +595,9 @@ h1,h2,h3,h4{
    ========================================================= */
 .attorneys-grid{
   display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:36px;
+  grid-template-columns:1fr;
+  max-width:640px;
+  margin:0 auto;
 }
 .attorney-card{
   background:var(--navy-900);
@@ -702,7 +703,7 @@ h1,h2,h3,h4{
   grid-template-columns:1fr 1.05fr;
   gap:50px;
 }
-.contact-cards{ display:flex; flex-direction:column; gap:22px; }
+.contact-cards{ display:flex; flex-direction:column; gap:22px; justify-content:center; }
 .contact-card{
   background:var(--paper);
   border:1px solid var(--line);
